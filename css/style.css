@@ -167,14 +167,26 @@ img {
    /* Section Steps */
 
    .steps .row{
-    display: flex;
+        display: flex;
         flex-direction: column; 
     }
     .steps .col{
         width: 100%;
         padding-bottom: 50px; 
     }
- 
+  
+    /* Section Why-us */
 
+    .why-us .row{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 100%;
+        padding-bottom: 50px; 
+        text-align: start;
+    }
 
  }
