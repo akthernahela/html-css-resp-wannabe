@@ -132,14 +132,27 @@ img {
 
  @media screen and (max-width: 768px){
     
-    .container{
-        width: 90%;
-        padding: 0px 10px;
-    }
+   
  }
 
  /* responsive mobile */
 
  @media screen and (max-width: 480px){
+    header{
+        text-align: center;
+    }
+    .container{
+        width: 80%;
+    }
+    .lessons .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lessons .col{
+        width: 100%;
 
+    }
+    
+   
  }
