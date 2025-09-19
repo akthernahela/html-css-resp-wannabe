@@ -138,21 +138,43 @@ img {
  /* responsive mobile */
 
  @media screen and (max-width: 480px){
+    
+    body{
+        margin: auto;
+        padding: 0px;
+    }
     header{
         text-align: center;
     }
     .container{
-        width: 80%;
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
     }
+
+    /* Section Lessons */
+
     .lessons .row{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; 
     }
     .lessons .col{
         width: 100%;
-
+        padding-bottom: 50px; 
     }
     
-   
+   /* Section Steps */
+
+   .steps .row{
+    display: flex;
+        flex-direction: column; 
+    }
+    .steps .col{
+        width: 100%;
+        padding-bottom: 50px; 
+    }
+ 
+
+
  }
