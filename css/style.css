@@ -131,7 +131,18 @@ img {
  /* responsive tablet */
 
  @media screen and (max-width: 768px){
-    
+    .lessons .container,
+    .steps .container,
+    .why-us .container{
+        width: 500px;
+        display: inline-block;
+        padding: 0px 5px;
+        
+    }
+    .lessons .row{
+        width: 100%;
+        
+    }
    
  }
 
